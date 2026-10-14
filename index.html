@@ -6,7 +6,6 @@
     <title>บัณฑิตา เรืองศักดิ์ - Academic Portfolio</title>
     
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
     <script>
@@ -56,9 +55,9 @@
     <main class="max-w-4xl mx-auto px-4 py-12 md:py-20 shadow-sm bg-white min-h-screen my-0 md:my-8 rounded-none md:rounded-2xl">
         
         <header class="flex flex-col md:flex-row items-center gap-8 mb-16 pb-8 border-b border-gray-100">
-            <!-- Replace placeholder with actual image if available -->
+            <!-- Profile Image Container -->
             <div class="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-secondary shadow-md flex-shrink-0">
-                <img src="IMG_7112.JPG">
+                <img src="IMG_7112.JPG" alt="บัณฑิตา เรืองศักดิ์" class="w-full h-full object-cover">
             </div>
             
             <div class="text-center md:text-left">
@@ -72,9 +71,9 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
             
+            <!-- Left Column: About, Personal Info, Hobbies -->
             <div class="md:col-span-1 space-y-10">
                 
-                <!-- About Me -->
                 <section>
                     <h2 class="text-2xl font-bold text-gray-900 mb-4 section-header">เกี่ยวกับฉัน</h2>
                     <p class="text-gray-600 leading-relaxed text-sm">
@@ -82,7 +81,6 @@
                     </p>
                 </section>
 
-                <!-- Personal Info -->
                 <section>
                     <h2 class="text-2xl font-bold text-gray-900 mb-4 section-header">ข้อมูลส่วนตัว</h2>
                     <ul class="space-y-3 text-sm text-gray-600">
@@ -101,7 +99,6 @@
                     </ul>
                 </section>
 
-                <!-- Hobbies -->
                 <section>
                     <h2 class="text-2xl font-bold text-gray-900 mb-4 section-header">งานอดิเรก</h2>
                     <div class="flex flex-wrap gap-2">
@@ -113,25 +110,32 @@
 
             </div>
 
+            <!-- Right Column: Education, Contact -->
             <div class="md:col-span-2 space-y-10">
                 
-                <!-- Education Timeline -->
                 <section>
                     <h2 class="text-2xl font-bold text-gray-900 mb-6 section-header">ประวัติการศึกษา</h2>
                     
                     <div class="relative border-l-2 border-primary ml-3 space-y-8 pl-6">
                         
-                        <!-- Education Item 1 -->
                         <div class="relative">
-                            <div class="absolute -left-[31px] bg-white border-2 border-primary w-4 h-4 rounded-full mt-1.5"></div>
-                            <div class="bg-gray-50 rounded-lg p-5 border border-gray-100 hover:shadow-md transition-shadow">
-                                <span class="text-sm font-semibold text-primary mb-1 block">พ.ศ. 2566 - 2568</span>
+                            <div class="absolute -left-[31px] bg-white border-2 border-primary w-4 h-4 rounded-full mt-1.5 shadow-[0_0_0_4px_rgba(244,114,182,0.2)]"></div>
+                            <div class="bg-pink-50/60 rounded-lg p-5 border border-pink-200 hover:shadow-md transition-shadow">
+                                <span class="text-sm font-semibold text-primary mb-1 block">พ.ศ. 2569 - ปัจจุบัน</span>
+                                <h3 class="text-lg font-bold text-gray-800">วิทยาลัยการสาธารณสุขสิรินธร จังหวัดขอนแก่น</h3>
+                                <p class="text-primary text-sm mt-1 font-medium">กำลังศึกษา</p>
+                            </div>
+                        </div>
+
+                        <div class="relative">
+                            <div class="absolute -left-[31px] bg-white border-2 border-gray-300 w-4 h-4 rounded-full mt-1.5"></div>
+                            <div class="bg-white rounded-lg p-5 border border-gray-100 hover:shadow-md transition-shadow">
+                                <span class="text-sm font-semibold text-gray-500 mb-1 block">พ.ศ. 2566 - 2568</span>
                                 <h3 class="text-lg font-bold text-gray-800">โรงเรียนอุ่มเหม้าประชาสรรค์</h3>
                                 <p class="text-gray-500 text-sm mt-1">ระดับมัธยมศึกษาตอนปลาย</p>
                             </div>
                         </div>
 
-                        <!-- Education Item 2 -->
                         <div class="relative">
                             <div class="absolute -left-[31px] bg-white border-2 border-gray-300 w-4 h-4 rounded-full mt-1.5"></div>
                             <div class="bg-white rounded-lg p-5 border border-gray-100">
@@ -141,7 +145,6 @@
                             </div>
                         </div>
 
-                        <!-- Education Item 3 -->
                         <div class="relative">
                             <div class="absolute -left-[31px] bg-white border-2 border-gray-300 w-4 h-4 rounded-full mt-1.5"></div>
                             <div class="bg-white rounded-lg p-5 border border-gray-100">
@@ -154,7 +157,6 @@
                     </div>
                 </section>
 
-                <!-- Contact Information -->
                 <section class="bg-secondary rounded-xl p-6 border border-pink-50">
                     <h2 class="text-2xl font-bold text-gray-900 mb-6 section-header">ช่องทางติดต่อ</h2>
                     
